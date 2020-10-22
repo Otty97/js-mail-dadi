@@ -1,8 +1,13 @@
 var utente; //variabile aleatorio dell'utente
 var pc; //variabile aleatorio dell'pc
+playGame = document.getElementById("play")
 
 utente = Math.floor((Math.random()*6)+1);
 pc = Math.floor((Math.random()*6)+1);
+
+//Evento generatore del gioco
+playGame.addEventListener("click",function(){
+
 
 if (utente > pc) {
 
