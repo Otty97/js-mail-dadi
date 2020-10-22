@@ -19,12 +19,7 @@ playGame.addEventListener("click",function(){
     message = "DROW!"
   }
 
-)}
-
-
-
-
-
-document.getElementById("utenteResult").innerHTML = utente;
-document.getElementById("pcResult").innerHTML = pc;
-document.getElementById("finalResult").innerHTML = message;
+  document.getElementById("utenteResult").innerHTML = utente;
+  document.getElementById("pcResult").innerHTML = pc;
+  document.getElementById("finalResult").innerHTML = message;
+})
