@@ -5,7 +5,7 @@ var utente = ""
 var pc = ""
 
 //Evento generatore del gioco
-//playGame.addEventListener("click",function(){
+playGame.addEventListener("click",function(){
 
   utente = Math.floor((Math.random()*6)+1);
   pc = Math.floor((Math.random()*6)+1);
@@ -15,10 +15,11 @@ var pc = ""
     message = "YOU WIN!"
   } else if (utente < pc) {
     message = "YOU LOSE!"
-  } else if (utente = pc) {
+  } else if (utente === pc) {
     message = "DROW!"
   }
 
+)}
 
 
 
